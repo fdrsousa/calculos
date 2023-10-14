@@ -30,6 +30,13 @@ namespace Calculos
             return n1 - n2;
         }
 
-
+        /// <summary>
+        /// Operação Mutiplicar.
+        /// </summary>
+        /// <returns>Retorna a multiplicação de dois valores inteiros</returns>
+        public static int Multiplicar(int n1, int n2)
+        {
+            return n1 * n2;
+        }
     }
 }
